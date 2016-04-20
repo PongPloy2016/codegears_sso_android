@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:title="">
+
+        <item android:id="@+id/nav_camara"
+            android:icon="@drawable/sidemenu_home_active_icn"
+            android:title="HOME" />
+        </item>
+
+        <item android:title="">
+
+        <item android:id="@+id/nav_gallery" android:icon="@drawable/sidemenu_news_inactive_icn"
+            android:title="NEWS" />
+
+        </item>
+        <item android:id="@+id/nav_slideshow" android:icon="@drawable/sidemenu_ssotv_inactive_icn"
+            android:title="SSO TV" />
+        <item android:id="@+id/nav_manage" android:icon="@drawable/sidemenu_about_inactive_icn"
+            android:title="COMICS" />
+        <item android:id="@+id/nav_manage_1" android:icon="@drawable/sidemenu_member_inactive_icn"
+            android:title="MEMBER" />
+        <item android:id="@+id/nav_card" android:icon="@drawable/sidemenu_card_inactive_icn"
+        android:title="CARD" />
+        <item android:id="@+id/nav_map" android:icon="@drawable/sidemenu_map_inactive_icn"
+            android:title="MAP" />
+        <item android:id="@+id/nav_setting" android:icon="@drawable/sidemenu_about_inactive_icn"
+            android:title="SETTING" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item android:id="@+id/nav_share" android:icon="@android:drawable/ic_menu_share"
+                android:title="Share" />
+            <item android:id="@+id/nav_send" android:icon="@drawable/sidemenu_close_btn"
+                android:title="SIGN OUT" />
+        </menu>
+    </item>
+
+</menu>

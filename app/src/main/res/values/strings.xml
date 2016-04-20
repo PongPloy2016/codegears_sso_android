@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">codegears_sso_android</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+    <string name="menu_menber">MEMBER</string>
+    <string name="menu_card">CAED</string>
+    <string name="menu_MAP">MAP</string>
+    <string name="menu_SETTING">SETTING</string>
+</resources>
